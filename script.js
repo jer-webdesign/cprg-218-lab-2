@@ -36,10 +36,10 @@ Moose.addEventListener('click',function(){
 	/*pagetitle.innerHTML = "Moose";*/
 	console.log("Bighorn Sheep");
 	document.body.classList.remove("blackBear");
-	document.body.classList.remove("Moose");
+	document.body.classList.add("Moose");
 	document.body.classList.remove("Wolf");
 	document.body.classList.remove("Elk");	
-	document.body.classList.add('bighornSheep');
+	document.body.classList.remove('bighornSheep');
 	document.getElementById('animals').src="moose.webp";
 	document.getElementById('animals').alt="moose";
 	document.getElementById('Moose').style.backgroundColor = "#97bf04"; 
@@ -54,9 +54,9 @@ Wolf.addEventListener('click',function(){
 	console.log("Wolf");
 	document.body.classList.remove("blackBear");
 	document.body.classList.remove("Moose");
-	document.body.classList.remove("Wolf");
+	document.body.classList.add("Wolf");
 	document.body.classList.remove("Elk");	
-	document.body.classList.add('bighornSheep');
+	document.body.classList.remove('bighornSheep');
 	document.getElementById('animals').src="wolf.webp";
 	document.getElementById('animals').alt="wolf";
 	document.getElementById('Wolf').style.backgroundColor = "#97bf04"; 
@@ -72,8 +72,8 @@ Elk.addEventListener('click',function(){
 	document.body.classList.remove("blackBear");
 	document.body.classList.remove("Moose");
 	document.body.classList.remove("Wolf");
-	document.body.classList.remove("Elk");	
-	document.body.classList.add('bighornSheep');
+	document.body.classList.add("Elk");	
+	document.body.classList.remove('bighornSheep');
 	document.getElementById('animals').src="sheep.webp";
 	document.getElementById('animals').alt="sheep";
 	document.getElementById('Elk').style.backgroundColor = "#97bf04"; 
